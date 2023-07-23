@@ -4,48 +4,128 @@ body {
   background-color: white;
 }
 
-ul,
-ol {
-  list-style-type: none;
+a {
   text-decoration: none;
 }
 
-.page-header {
-  background-color: white;
+ul,
+li {
+  list-style-type: none;
 }
-.logo {
+
+.nav-logo,
+.footer-logo {
   font-family: 'Raleway';
+  font-size: 18px;
   color: black;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
   text-decoration: none;
 }
-.page-nav .link {
+.nav-link {
   color: black;
+  font-size: 16px;
   text-decoration: none;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
+.nav-link:hover,
+.nav-link:active {
   color: #404bbf;
   text-decoration: underline;
 }
-.adress .mail,
-.adress .tel {
+.contacts-link {
   color: black;
+  font-size: 16px;
   text-decoration: none;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
 }
-.adress .mail:hover,
-.adress .mail:focus,
-.adress .tel:hover,
-.adress .tel:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
+}
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.button:hover {
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+h3 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-text {
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.concept-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.concept-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.card-row1,
+.card-row2,
+.card-row3 {
+  border: 1px solid, #e7e9fc;
+  background: #fff;
+}
+
+.card-row1 .card-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.card-row1 .card-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
