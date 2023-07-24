@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: black;
-  background-color: white;
+  background-color: #fff;
 }
 
 a {
@@ -12,17 +12,31 @@ ul,
 li {
   list-style-type: none;
 }
+.page-header {
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
 
-.nav-logo,
-.footer-logo {
-  font-family: 'Raleway';
+.logo {
+  font-family: Raleway, sans-serif;
   font-size: 18px;
-  color: black;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.54px;
-  text-decoration: none;
+  text-transform: uppercase;
 }
+.header-logo-web,
+.footer-logo-web {
+  color: #4d5ae5;
+}
+.header-logo-studio {
+  color: #2e2f42;
+}
+.footer-logo-studio {
+  color: var(--cloud, #f4f4fd);
+  background-color: #2e2f42;
+}
+
 .nav-link {
   color: black;
   font-size: 16px;
@@ -65,34 +79,18 @@ li {
   background: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
-h1 {
+.hero {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.main-page {
   color: #fff;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-
-h3 {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.team-text {
-  color: #434455;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
 .concept-title {
   color: #2e2f42;
   font-size: 20px;
@@ -107,25 +105,25 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
-.card-row1,
-.card-row2,
-.card-row3 {
-  border: 1px solid, #e7e9fc;
-  background: #fff;
+#studio,
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
-
-.card-row1 .card-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
+.sectoin-team {
+  width: 1440px;
+  height: 732px;
+  background: var(--cloud, #f4f4fd);
 }
-
-.card-row1 .card-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.footer-board {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 312px;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
 }
