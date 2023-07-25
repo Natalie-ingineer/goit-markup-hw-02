@@ -46,6 +46,7 @@ li {
   background-color: #2e2f42;
 }
 
+.list,
 .nav-list,
 .nav-link {
   color: var(--background-color);
