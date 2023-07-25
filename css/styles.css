@@ -46,8 +46,8 @@ li {
   background-color: #2e2f42;
 }
 
-.list,
-nav-link {
+.nav-list,
+.nav-link {
   color: var(--background-color);
   font-size: 16px;
   text-decoration: none;
@@ -56,11 +56,11 @@ nav-link {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
-.nav-link-link {
+.nav-link {
   text-decoration: none;
 }
-.nav-link-link:hover,
-.nav-link-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
