@@ -12,6 +12,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: var(--background-color);
 }
 
 ul,
@@ -21,9 +22,7 @@ li {
 .page-header {
   background: var(--primary-background);
 }
-.contacts {
-  font-style: normal;
-}
+
 .link {
   font-family: Raleway, sans-serif;
   color: var(--background-color);
@@ -47,7 +46,8 @@ li {
   background-color: #2e2f42;
 }
 
-.list {
+.list,
+nav-link {
   color: var(--background-color);
   font-size: 16px;
   text-decoration: none;
@@ -56,12 +56,16 @@ li {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
+
 .nav-link:hover,
 .nav-link:active {
   color: var(--color-button);
   text-decoration: underline;
 }
-.contacts-link {
+.contacts {
+  font-style: normal;
+}
+.contacts .list .link {
   color: var(--primary-color-text);
   font-size: 16px;
   text-decoration: none;
@@ -69,8 +73,8 @@ li {
   letter-spacing: 0.32px;
   font-style: normal;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts .list .link:hover,
+.contacts .list .link:focus {
   color: #404bbf;
 }
 .button {
@@ -110,7 +114,7 @@ li {
   background-color: #2e2f42;
 }
 .main-page {
-  color: color: #ffffff;
+  color: #ffffff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -145,7 +149,7 @@ li {
   background: var(--background-color-portfolio);
 }
 .item-picture {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .item-card {
   background: var(--primary-background);
