@@ -56,6 +56,13 @@ nav-link {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
+.nav-link-link {
+  text-decoration: none;
+}
+.nav-link-link:hover,
+.nav-link-link:focus {
+  color: #404bbf;
+}
 
 .nav-link:hover,
 .nav-link:active {
