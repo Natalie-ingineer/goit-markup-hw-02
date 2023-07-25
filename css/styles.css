@@ -21,9 +21,12 @@ li {
 .page-header {
   background: var(--primary-background);
 }
-
+.contacts {
+  font-style: normal;
+}
 .link {
   font-family: Raleway, sans-serif;
+  color: var(--background-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -31,6 +34,7 @@ li {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .header-logo-web,
 .footer-logo-web {
   color: var(--color-button);
@@ -82,9 +86,7 @@ li {
 }
 
 .button:hover,
-.button:focus,
-.button-portfolio:hover,
-.button-portfolio:focus {
+.button:focus {
   background: #404bbf;
   color: #ffffff;
 }
@@ -99,12 +101,16 @@ li {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
 .hero {
   background-color: #2e2f42;
 }
 .main-page {
-  color: var(--primary-background);
+  color: color: #ffffff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -126,9 +132,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-#studio,
-.title,
-.team-title {
+.title {
   color: var(--background-color);
   font-size: 36px;
   font-weight: 700;
@@ -141,7 +145,7 @@ li {
   background: var(--background-color-portfolio);
 }
 .item-picture {
-  background: var(--primary-background);
+  background: #FFFFFF;
 }
 .item-card {
   background: var(--primary-background);
