@@ -119,6 +119,19 @@ li {
   height: 732px;
   background: var(--cloud, #f4f4fd);
 }
+.item-picture {
+  width: 264px;
+  height: 348px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.item-card {
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
 .footer-board {
   background: var(--navyblue, #2e2f42);
   width: 1440px;
