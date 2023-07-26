@@ -1,14 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: var(--primary-color-text);
+  background-color: var(--primary-background);
 }
 :root {
-  --primary-background: --white, #fff;
+  --primary-background: #fff;
   --background-color: #2e2f42;
   --primary-color-text: #434455;
   --color-button: #4d5ae5;
   --background-color-portfolio: #f4f4fd;
+  --color-button-nav: #404bbf;
 }
 a {
   text-decoration: none;
@@ -24,30 +25,27 @@ li {
 }
 
 .link {
-  font-family: Raleway, sans-serif;
-  color: var(--background-color);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
 .header-logo-web,
 .footer-logo-web {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   color: var(--color-button);
 }
 .header-logo-studio {
-  color: #2e2f42;
+  color: var(--background-color);
 }
 .footer-logo-studio {
-  color: #f4f4fd;
-  background-color: #2e2f42;
+  color: var(--background-color-portfolio);
+  background-color: var(--background-color);
 }
 
-.list,
-.nav-list,
 .nav-link {
   color: var(--background-color);
   font-size: 16px;
@@ -57,12 +55,10 @@ li {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
-.nav-link {
-  text-decoration: none;
-}
+
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--color-button-nav);
 }
 
 .contacts {
@@ -78,14 +74,14 @@ li {
 }
 .contacts .list .link:hover,
 .contacts .list .link:focus {
-  color: #404bbf;
+  color: var(--color-button-nav);
 }
 .button {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   background: var(--color-button);
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--color-button);
+  color: var(--primary-background);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -94,8 +90,8 @@ li {
 
 .button:hover,
 .button:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background: var(--color-button-nav);
+  color: var(--primary-background);
 }
 
 .button-portfolio {
@@ -110,14 +106,14 @@ li {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background: var(--color-button-nav);
+  color: var(--primary-background);
 }
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--background-color);
 }
 .main-page {
-  color: #ffffff;
+  color: var(--primary-background);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -152,7 +148,7 @@ li {
   background: var(--background-color-portfolio);
 }
 .item-picture {
-  background: #ffffff;
+  background: var(--primary-background);
 }
 .item-card {
   background: var(--primary-background);
